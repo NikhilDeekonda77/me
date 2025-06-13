@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil Deekonda Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="dark-mode">
+  <header>
+    <div class="logo">Nikhil's Portfolio</div>
+    <div class="hamburger-menu" id="hamburgerMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav id="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="Education.html">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="Resume/Nikhil_Deekonda_Resume.pdf" download="Nikhil_Deekonda_Resume.pdf">Download Resume</a>
+    </nav>
+    <div class="actions">
+      <span class="dark-mode-toggle">🌙</span>
+    </div>
+
+  </header>
+<div class="page-container">
+  <main class="content" id="home">
+    <div class="hero">
+      <div class="left">
+        <h1>Hola!</h1>
+        <div class="changing-text">
+          I'm<br> <span id="dynamic-text">Nikhil Deekonda</span>
+        </div>
+        <p>🎯 I build intelligent, secure, and scalable AI systems using deep learning, LLMs, and agent orchestration. Currently developing multi-agent frameworks and real-time iOS apps for healthcare and fintech automation.</p>
+
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/nikhildeekonda/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/NikhilDeekonda77" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <a href="https://www.youtube.com/@CreativeAllCorner" target="_blank"><i class="fab fa-youtube"></i></a> -->
+          <a href="https://www.instagram.com/nikhil__deekonda/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+  
+      </div>
+      <div class="right">
+        <img src="Images/profile_image.jpeg" alt="Placeholder Image">
+      </div>
+    </div>
+  </main>
+</div>
+
+  <!-- About Section -->
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="Images/About.jpeg" alt="Nikhil Illustration">
+    </div>
+    <div class="about-text">
+      <h2>About<span>Me</span></h2>
+      <h4>Agentic AI Engineer | LLM Developer | iOS & Cloud Builder</h4>
+      <p>Hello, I'm Nikhil Deekonda — an AI and cloud engineer passionate about building intelligent, multimodal applications. I completed my MS in Artificial Intelligence at Yeshiva University, NY, maintaining a 3.9 GPA.
+      <br><br>
+      My professional experience includes building agentic systems at Lumamind - REVIV AI, where I lead the development of an iOS-based virtual clinic and orchestrate multi-agent workflows using AWS Bedrock, FastAPI, Cognito, and LangChain.
+      <br><br>
+      At LTIMindtree, I developed and fine-tuned LLMs (GPT, Falcon, LLaMA-2, Mistral), engineered secure pipelines and validation flows, and deployed scalable solutions using AWS and LangGraph.
+      <br><br>
+      I specialize in deploying LLM-powered solutions with FastAPI, iOS integration, and real-time cloud orchestration. I believe in using AI responsibly to solve real-world problems and create human-centered experiences.
+      <br><br>
+      Let's build something innovative together.
+      <br><br>
+      <a href="Education.html" class="btn-box">More About Me</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+<section>
+  <div class="services" id="services">
+    <div class="container">
+      <h1 class="sub-title">My<span>Services</span></h1>
+      <div class="services-list">
+        
+        <div>
+          <i class='bx bx-brain' style='color:#00eeff'></i>
+          <h2>AI & ML Engineering</h2>
+          <p>I design and train deep learning models for structured and unstructured data. My expertise includes CNNs for medical imaging, BERT/DeBERTa for NLP, and integrating these into real-world solutions. I also fine-tune LLMs like Mistral and LLaMA-2 using techniques such as LoRA/QLoRA.</p>
+          <a href="services.html" class="read">Learn More</a>
+        </div>
+
+        <div>
+          <i class='bx bx-bot' style='color:#00eeff'></i>
+          <h2>LLM Applications & Agentic Systems</h2>
+          <p>I build multi-agent orchestration systems using AWS Bedrock and LangChain. These include persona-based agents for financial automation, RAG-based Q&A systems, and real-time voice bots using AWS Transcribe and Polly—all optimized for scalability, compliance, and latency.</p>
+          <a href="services.html" class="read">Learn More</a>
+        </div>
+
+        <div>
+          <i class='bx bx-cloud' style='color:#00eeff'></i>
+          <h2>Cloud & MLOps Solutions</h2>
+          <p>I deploy full-stack AI systems on AWS using services like EC2, S3, Lambda, Cognito, and SageMaker. I also implement authentication, CI/CD pipelines, and monitoring to ensure secure and production-grade model delivery across mobile/web platforms.</p>
+          <a href="services.html" class="read">Learn More</a>
+        </div>
+
+        <div>
+          <i class='bx bx-mobile-alt' style='color:#00eeff'></i>
+          <h2>Cross-Platform App Development</h2>
+          <p>I build iOS (SwiftUI) and Android (Kotlin) apps powered by on-device AI using TFLite and Grad-CAM. My mobile deployments support multimodal interfaces, real-time inference, and healthcare-ready features such as adherence alerts and interpretability.</p>
+          <a href="services.html" class="read">Learn More</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Skill Section -->
+<h1 class="sub-title" id="skills">My<span>Skills</span></h1>
+
+<!-- Technical Skills -->
+<section id="skill">
+  <div class="container1">
+    <h1 class="heading1">Technical Skills</h1>
+
+    <div class="bar"><i class='bx bxl-python' style="color:#c32ec9;"></i>
+      <span>Python</span>
+      <div class="progress-line" style="--width: 95%;"><span></span><div class="percentage">95%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-code-curly' style='color:#00cc99'></i>
+      <span>Machine Learning</span>
+      <div class="progress-line" style="--width: 90%;"><span></span><div class="percentage">90%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-brain' style='color:#ff4d4d'></i>
+      <span>Deep Learning</span>
+      <div class="progress-line" style="--width: 85%;"><span></span><div class="percentage">85%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-chat' style='color:#5e60ce'></i>
+      <span>NLP & LLMs (DeBERTa, GPT, Mistral, LLaMA-2)</span>
+      <div class="progress-line" style="--width: 90%;"><span></span><div class="percentage">90%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-link' style='color:#fbbf24'></i>
+      <span>API Development (FastAPI, Flask, REST)</span>
+      <div class="progress-line" style="--width: 90%;"><span></span><div class="percentage">90%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bxs-data' style='color:aqua'></i>
+      <span>Data Science & Analysis</span>
+      <div class="progress-line" style="--width: 85%;"><span></span><div class="percentage">85%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-data' style='color:#f87171'></i>
+      <span>SQL & NoSQL (PostgreSQL, MongoDB)</span>
+      <div class="progress-line" style="--width: 85%;"><span></span><div class="percentage">85%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-code-alt' style='color:#5392c2'></i>
+      <span>Streamlit & Web Apps</span>
+      <div class="progress-line" style="--width: 90%;"><span></span><div class="percentage">90%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-cloud' style='color:#00c2cb'></i>
+      <span>Cloud (AWS EC2, Lambda, Bedrock, Cognito, S3)</span>
+      <div class="progress-line" style="--width: 80%;"><span></span><div class="percentage">80%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-git-branch' style='color:#ff9900'></i>
+      <span>LangChain, AutoGen, RAG Pipelines</span>
+      <div class="progress-line" style="--width: 85%;"><span></span><div class="percentage">85%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bx-mobile-alt' style="color:#c95d2e;"></i>
+      <span>Mobile Dev (SwiftUI, Kotlin, TFLite)</span>
+      <div class="progress-line" style="--width: 75%;"><span></span><div class="percentage">75%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bxl-html5' style="color:#c95d2e;"></i>
+      <span>HTML</span>
+      <div class="progress-line" style="--width: 90%;"><span></span><div class="percentage">90%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bxl-css3' style="color:#147bbc;"></i>
+      <span>CSS</span>
+      <div class="progress-line" style="--width: 85%;"><span></span><div class="percentage">85%</div></div>
+    </div>
+
+    <div class="bar"><i class='bx bxl-javascript' style="color:#facc15;"></i>
+      <span>JavaScript</span>
+      <div class="progress-line" style="--width: 70%;"><span></span><div class="percentage">70%</div></div>
+    </div>
+
+  </div>    
+</section>
+
+    <!-- professional_skill Section -->
+    <section id="professional_skill"> 
+      <!-- Professional Skills -->
+      <div class="container2">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-chart">
+          <div class="circle" style="--offset: 38%;">
+            <svg viewBox="0 0 120 120">
+              <circle class="bg" cx="60" cy="60" r="55"></circle>
+              <circle class="progress" cx="60" cy="60" r="55"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Creativity</div>
+          </div>
+  
+          <div class="circle" style="--offset: 75%;">
+            <svg viewBox="0 0 120 120">
+              <circle class="bg" cx="60" cy="60" r="55"></circle>
+              <circle class="progress" cx="60" cy="60" r="55"></circle>
+            </svg>
+            <div class="percentage">70%</div>
+            <div class="text">Communication</div>
+          </div>
+  
+          <div class="circle" style="--offset: 110%;">
+            <svg viewBox="0 0 120 120">
+              <circle class="bg" cx="60" cy="60" r="55"></circle>
+              <circle class="progress" cx="60" cy="60" r="55"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem-Solving</div>
+          </div>
+
+          <div class="circle" style="--offset: 110%;">
+            <svg viewBox="0 0 120 120">
+              <circle class="bg" cx="60" cy="60" r="55"></circle>
+              <circle class="progress" cx="60" cy="60" r="55"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Agile Framework</div>
+          </div>
+
+          <div class="circle" style="--offset: 110%;">
+            <svg viewBox="0 0 120 120">
+              <circle class="bg" cx="60" cy="60" r="55"></circle>
+              <circle class="progress" cx="60" cy="60" r="55"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Innovation</div>
+          </div>
+
+          <div class="circle" style="--offset: 110%;">
+            <svg viewBox="0 0 120 120">
+              <circle class="bg" cx="60" cy="60" r="55"></circle>
+              <circle class="progress" cx="60" cy="60" r="55"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">Team Work and Leadership</div>
+          </div>
+        </div>
+      </div>
+      <div class="exp">
+        <a href="Education.html" class="read1">View My exprience / Acedamics</a>
+      </div>
+    </section>
+  
+
+  <!-- Research Section -->
+<section id="researches">
+  <div class="section-heading">
+    <h1 class="sub-t1">My <span>Research</span></h1>
+  </div>
+
+  <div class="projects-wrapper">
+
+    <div class="project-card">
+      <h3>Optimizing Visual Bird Sound Denoising with Deep Learning</h3>
+      <p>
+        Proposed a deep learning model to denoise bird spectrograms by segmenting relevant acoustic patterns. This enhances the quality of field recordings used in ecological and biodiversity research, using a custom encoder-decoder architecture with an IoU of 66.24.
+      </p>
+      <p>
+        📄 <a href="https://www.researchgate.net/publication/382901909_Optimizing_Visual_Bird_Sound_Denoising_with_Deep_Learning_A_Segmentation_Approach" target="_blank">
+          View Research Paper
+        </a>
+      </p>
+      <div class="tech-stack">
+        <span>Segmentation</span>
+        <span>Deep Learning</span>
+        <span>Audio Processing</span>
+        <span>IoU</span>
+        <span>Bioacoustics</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>EfficientNet-Based Deep Learning Model for Dog Cardiomegaly Detection</h3>
+      <p>
+        Developed an EfficientNet-based pipeline for cardiomegaly detection from canine radiographs, improving diagnostic accuracy and automating early risk detection in veterinary healthcare.
+      </p>
+      <p>
+        📄 <a href="https://www.researchgate.net/publication/382462051_EfficientNet-Based_Deep_Learning_Model_for_Dog_Cardiomegaly_Detection" target="_blank">
+          View Research Paper
+        </a>
+      </p>
+      <div class="tech-stack">
+        <span>EfficientNet</span>
+        <span>Veterinary Imaging</span>
+        <span>Computer Vision</span>
+        <span>Deep Learning</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Assessing Cardiomegaly in Dogs Using a Simple CNN Model</h3>
+      <p>
+        Designed and evaluated a CNN-based model for binary classification of cardiomegaly from canine X-rays. The model supports veterinarians in streamlining diagnosis using radiographic data.
+      </p>
+      <p>
+        📄 <a href="https://www.researchgate.net/publication/382109427_Assessing_Cardiomegaly_in_Dogs_Using_a_Simple_CNN_Model" target="_blank">
+          View Research Paper
+        </a>
+      </p>
+      <div class="tech-stack">
+        <span>CNN</span>
+        <span>Binary Classification</span>
+        <span>Veterinary AI</span>
+        <span>X-ray</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="exp">
+    <a href="https://www.researchgate.net/profile/Nikhil-Deekonda?ev=hdr_xprf" target="_blank" class="read1">View All Publications</a>
+  </div>
+</section>
+
+
+
+  <!-- Project Section -->
+<section id="projects">
+  <div class="section-heading">
+    <h1 class="sub-t1">My<span>Projects</span></h1>
+  </div>
+  <div class="projects-wrapper">
+
+    <div class="project-card">
+      <h3>TaskFin: Agent-Based Financial Automation</h3>
+      <p>Developed a multi-agent LLM-powered bill payment system using LangChain + ReAct. It features authentication, state-tracking, and orchestration agents running in a conversational Streamlit UI. MFA simulation and synthetic APIs enable real-world task automation in secure environments.</p>
+      <div class="tech-stack">
+        <span>LangChain</span>
+        <span>Mistral</span>
+        <span>Claude</span>
+        <span>Streamlit</span>
+        <span>LLMs</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>LungAware: AI Lung Cancer Detection App</h3>
+      <p>Built an Android/iOS app using Swift and Kotlin integrating a CNN model for lung cancer prediction from CT scans. Integrated Grad-CAM for interpretability and deployed the model using TFLite for mobile inference.</p>
+      <div class="tech-stack">
+        <span>Swift</span>
+        <span>Kotlin</span>
+        <span>CNN</span>
+        <span>Grad-CAM</span>
+        <span>TFLite</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>LLM Reliability Enhancer: Fact-Checking with DeBERTa</h3>
+      <p>Fine-tuned a Microsoft DeBERTa-v3 model as a fact-checking cross-encoder. Integrated it into QA pipelines to validate answers in real time, reducing hallucinations. Achieved an F1 score of 85% on the Facebook Fact Checking Dataset.</p>
+      <div class="tech-stack">
+        <span>DeBERTa</span>
+        <span>Hugging Face</span>
+        <span>Cross-Encoder</span>
+        <span>Fact-Checking</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Bird Sound Denoising with Custom Segmentation</h3>
+      <p>Engineered a deep learning architecture to denoise bird sound spectrograms using visual segmentation techniques. Outperformed SOTA approaches, achieving an IoU of 66.24. Aimed at enhancing ecological monitoring.</p>
+      <div class="tech-stack">
+        <span>Encoder-Decoder</span>
+        <span>Deep Learning</span>
+        <span>Segmentation</span>
+        <span>Bioacoustics</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>AI-Powered Assistive Communication (FSR402)</h3>
+      <p>Built a system using FSR402 pressure sensors and ML classifiers to assist semi-paralyzed users by interpreting finger gestures. Translated gestures into digital text using real-time signal processing pipelines in Python.</p>
+      <div class="tech-stack">
+        <span>FSR Sensors</span>
+        <span>Python</span>
+        <span>Gesture Recognition</span>
+        <span>Accessibility</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="more-proj">
+    <a href="https://github.com/NikhilDeekonda77" target="_blank" class="read1">View All on GitHub</a>
+  </div>
+</section>
+
+  
+  
+  
+  <section id="testimonial">
+  <div class="section-heading">
+    <h1 class="sub-t1">Real Feedback, <span>Real Result</span></h1>
+  </div>
+  <div class="testimonial-container">
+    <div class="testimonial-track">
+
+      <!-- Testimonial 1 -->
+      <div class="testimonial">
+        <img src="Images/testimonial_lungaware.jpeg" alt="LungAware Launch">
+        <p>“The goal of LungAware is simple but powerful—make early lung cancer detection fast, accessible and understandable. Anyone with an Android phone and a CT scan can access AI-powered insights in real time.”</p>
+        <span class="author">— Nikhil Deekonda, M.S. AI Student</span>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial">
+        <img src="Images/test.jpeg" alt="Chair Endorsement">
+        <p>“Nikhil’s work reflects the kind of innovation we hope to inspire at the Katz School. LungAware shows how AI can serve the public good—not just build smart tools, but solve urgent problems.”</p>
+        <span class="author">— Dr. Honggang Wang, Chair of Graduate CS</span>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial">
+        <img src="Images/testimonial3.jpeg" alt="Sacks Scholar Recognition">
+        <p>🎓 “Selected as the sole Sacks STEM Scholar from the Katz School for outstanding AI research in healthcare and explainability—one awardee per grad school across the university.”</p>
+        <span class="author">— Sacks Research Scholar 2024</span>
+      </div>
+
+      <!-- Repeat for seamless scrolling -->
+      <div class="testimonial">
+        <img src="Images/testimonial_lungaware.png" alt="LungAware Launch">
+        <p>“The goal of LungAware is simple but powerful—make early lung cancer detection fast, accessible and understandable. Anyone with an Android phone and a CT scan can access AI-powered insights in real time.”</p>
+        <span class="author">— Nikhil Deekonda, M.S. AI Student</span>
+      </div>
+
+      <div class="testimonial">
+        <img src="Images/testimonial_chair.png" alt="Chair Endorsement">
+        <p>“Nikhil’s work reflects the kind of innovation we hope to inspire at the Katz School. LungAware shows how AI can serve the public good—not just build smart tools, but solve urgent problems.”</p>
+        <span class="author">— Dr. Honggang Wang, Chair of Graduate CS</span>
+      </div>
+
+      <div class="testimonial">
+        <img src="Images/testimonial_sacks.png" alt="Sacks Scholar Recognition">
+        <p>🎓 “Selected as the sole Sacks STEM Scholar from the Katz School for outstanding AI research in healthcare and explainability—one awardee per grad school across the university.”</p>
+        <span class="author">— Sacks Research Scholar 2024</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+  <!-- Contact Page -->
+  <section class="contact-section" id="contact">
+    <!-- Left side with image and email -->
+    <div class="contact-info">  
+        <img src="Images/About.jpeg" alt="Profile Image" class="profile-image">
+        
+        <p class="info-label">WRITE AN E-MAIL</p>
+        <p class="email">deekondaikhil100@gmail.com</p>
+        
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/nikhildeekonda/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/NikhilDeekonda77" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <a href="https://www.youtube.com/@CreativeAllCorner" target="_blank"><i class="fab fa-youtube"></i></a> -->
+          <a href="https://www.instagram.com/nikhil__deekonda/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+          
+    <!-- Right side with form -->
+  <div class="contact-form">
+    <h2 class="con">Contact<span> Me</span></h2>
+    <h2 class="section-title">Let’s Build Something Great Together</h2>
+    <p class="section-description">
+      Whether you're looking for an AI expert, app developer, or LLM consultant, I'm open to exciting freelance and collaborative opportunities. Reach out—I'd love to hear what you're building.
+    </p>
+
+    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" onsubmit="handleFormSubmit(event)">
+      <input type="hidden" name="access_key" value="0efa73bd-3d14-4fac-bab1-2090b25a6b92">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">YOUR NAME</label>
+          <input type="text" name="name" class="form-control" placeholder="Name *" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">YOUR EMAIL</label>
+          <input type="email" name="email" class="form-control" placeholder="Email *" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">SUBJECT</label>
+        <input type="text" name="subject" class="form-control" placeholder="Subject *" required>
+      </div>
+      <br>
+      <div class="form-group">
+        <label class="form-label">YOUR MESSAGE</label>
+        <textarea name="message" class="form-control" placeholder="Your message *" required></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">SEND MESSAGE</button>
+    </form>
+  </div>
+
+</section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Nikhil Deekonda &nbsp;|&nbsp; Built with 💡, Code 💻, and Passion ❤️</p>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
