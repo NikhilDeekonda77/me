@@ -13,7 +13,7 @@ html, body {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #0f172a;
+  background-color: #11323a;
   color: #e2e8f0;
   overflow-x: hidden;
   transition: background-color 0.3s, color 0.3s;
